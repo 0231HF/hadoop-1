@@ -3373,7 +3373,9 @@
       configurations, if using a mutable configuration provider.
       Keywords such as "memory" map to certain configuration store
       implementations. If keyword is not found, try to load this
-      value as a class.
+      value as a class. Note: this configuration is only useful when using a
+      scheduler which supports mutable configuration. Currently only capacity
+      scheduler supports this.
     </description>
     <name>yarn.scheduler.configuration.store.class</name>
     <value>memory</value>

@@ -4439,7 +4439,7 @@ The scheduler configuration mutation API provides a way to modify scheduler/queu
 
 ### URI
 
-      * http://rm-http-address:port/ws/v1/cluster/sched-conf
+      * http://rm-http-address:port/ws/v1/cluster/scheduler-conf
 
 ### HTTP Operations Supported
 
@@ -4475,7 +4475,7 @@ HTTP Request:
 
 ```xml
       Accept: application/xml
-      PUT http://rm-http-address:port/ws/v1/cluster/sched-conf
+      PUT http://rm-http-address:port/ws/v1/cluster/scheduler-conf
       Content-Type: application/xml
       <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
       <schedConf>
@@ -4520,7 +4520,7 @@ HTTP Request:
 
 ```xml
       Accept: application/xml
-      PUT http://rm-http-address:port/ws/v1/cluster/sched-conf
+      PUT http://rm-http-address:port/ws/v1/cluster/scheduler-conf
       Content-Type: application/xml
       <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
       <schedConf>
@@ -4573,7 +4573,7 @@ HTTP Request:
 
 ```xml
       Accept: application/xml
-      PUT http://rm-http-address:port/ws/v1/cluster/sched-conf
+      PUT http://rm-http-address:port/ws/v1/cluster/scheduler-conf
       Content-Type: application/xml
       <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
       <schedConf>
@@ -4597,7 +4597,7 @@ HTTP Request:
 
 ```xml
       Accept: application/xml
-      PUT http://rm-http-address:port/ws/v1/cluster/sched-conf
+      PUT http://rm-http-address:port/ws/v1/cluster/scheduler-conf
       Content-Type: application/xml
       <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
       <schedConf>
